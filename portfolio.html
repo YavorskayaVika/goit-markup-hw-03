@@ -4,6 +4,12 @@
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous"
+  />
     <link rel="preconnect" href="https://fonts.gstatic.com" >
     <link rel="stylesheet" href="css/styles.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
@@ -20,24 +26,26 @@
   </head>
 
   <body>
+    
     <header class="header">
-      <nav>
-      <a class="logo link" href="./index.html">WEB<span class="accent">Studio</span></a >
-
-        <ul class="list">
+      <div class="box-header container" >
+      <nav class="nav-content" >
+        <a class="logo link" href="./index.html">WEB<span class="accent">Studio</span></a >
+        <ul class="list site-nav">
           <li class="navigation">
             <a class="link my-color" href="./index.html">Studio</a>
           </li>
           <li class="navigation">
             <a class="link my-color" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="navigation">
+          <li class="navigation last-child">
             <a class="link my-color" href="">Contacts</a>
           </li>
         </ul>
       </nav>
       <address class="contacs">
-        <ul class="list">
+        <ul class="">
+        <ul class="list menu last-child">
           <li class="connection">
             <a class="link color-tel" href="">info@devstudio.com</a>
           </li>
@@ -46,6 +54,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
       
