@@ -22,14 +22,14 @@ body ul {
   width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;
+ 
 
 }
 .header {
   background-color: var(--header-color);
   border-bottom:1px solid #e7e9fc
 }
-
-. box-header{
+.box-header{
   display: flex;
 }
 .nav-content{
@@ -90,7 +90,8 @@ body ul {
 }
 .menu{
   display: flex; 
-  margin-right: 40px 
+  margin-right: 40px;
+
 }
 .menu:last-child{
   margin-right: 0;
@@ -101,10 +102,11 @@ body ul {
 /* hero */
 .hero {
   background-color: var(--primari-text-color);
-  padding-top: 188;
-  padding-bottom: 188;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
+  max-width: 496px;
   color: white;
   font-size: 56px;
   font-weight: 700;
@@ -148,7 +150,18 @@ body ul {
   letter-spacing: 0.02em;
   text-align: center; 
  
-
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .title-goals {
   font-weight:500;
@@ -161,6 +174,7 @@ body ul {
 .main{
   display: flex;
   gap: 24px;
+
 }
 .advantages{
   flex-basis: calc((100% - 72px) / 4)
@@ -175,8 +189,6 @@ body ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
   text-align: center; 
   margin-bottom: 8px;
 }
@@ -204,15 +216,21 @@ body ul {
   gap: 24px; 
 }
 .item{
-width: calc((100% - 48px) /3);
+width: calc((100% - 48px)/3);
 }
 .card-list {
   background-color: #ffffff;
-  width: calc((100% - 72px) /4)
-  border-radius: 0px 0px 4px 4px
+  width: calc((100% - 72px) /4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-card {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center; 
+  margin-bottom: 8px;
+
+  
 }
 .item-name{
   padding: 32px 16px
