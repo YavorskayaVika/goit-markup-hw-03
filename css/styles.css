@@ -16,7 +16,9 @@ body {
 body ul {
   list-style: none;
 }
-
+img{
+  display: block;
+}
 /* header */
 .container{
   width: 1158px; 
@@ -90,7 +92,7 @@ body ul {
 }
 .menu{
   display: flex; 
-  margin-right: 40px;
+  gap: 40px;
 
 }
 .menu:last-child{
@@ -141,6 +143,9 @@ body ul {
 .button:focus {
   background-color: #404bbf;
   color: var(--white);
+  border: 1px solid transparent;
+  border: 1px solid transparent;
+
 }
 /* Goals */
 .section-goals {
@@ -177,7 +182,7 @@ body ul {
 
 }
 .advantages{
-  flex-basis: calc((100% - 72px) / 4)
+  width: calc((100% - 72px) / 4);
 }
 .we-doing{
   padding-bottom: 120px; 
@@ -216,7 +221,7 @@ body ul {
   gap: 24px; 
 }
 .item{
-width: calc((100% - 48px)/3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .card-list {
   background-color: #ffffff;
@@ -258,6 +263,11 @@ width: calc((100% - 48px)/3);
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
+  padding: 12px 24px;
+  border: 1px solid var(--header-color);
+  border-radius: 4px; 
+
+
 }
 .text {
   background-color: var(--primari-text-color);
@@ -268,11 +278,12 @@ width: calc((100% - 48px)/3);
   line-height: 1.5;
   color: var(--accent-two);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .footer-item{
   display: inline-block;
   margin-bottom: 16px; 
-  max-width: 264px;
+
 }
 .my-color{
   color: var(--primari-text-color);
@@ -284,4 +295,33 @@ width: calc((100% - 48px)/3);
 }
 .list {
   list-style: none;
+}
+
+.gallery{
+  padding-top: 96px; 
+  padding-bottom: 120px; 
+}
+
+.button-contant{
+  display: flex;
+ justify-content: center; 
+ gap: 24px;
+ margin-bottom: 72px;
+}
+
+.galery-element{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px; 
+}
+
+.item-galery{
+  width: calc((100% - 48px) /3)
+}
+.galery-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+  margin-bottom: 8px;
 }

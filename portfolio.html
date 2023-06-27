@@ -8,8 +8,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-    crossorigin="anonymous"
-  />
+    crossorigin="anonymous">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" >
     <link rel="stylesheet" href="css/styles.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
@@ -28,41 +28,42 @@
   <body>
     
     <header class="header">
-      <div class="box-header container" >
-      <nav class="nav-content" >
-        <a class="logo link" href="./index.html">WEB<span class="accent">Studio</span></a >
-        <ul class="list site-nav">
-          <li class="navigation">
-            <a class="link my-color" href="./index.html">Studio</a>
-          </li>
-          <li class="navigation">
-            <a class="link my-color" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="navigation last-child">
-            <a class="link my-color" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacs">
-        <ul class="">
-        <ul class="list menu last-child">
-          <li class="connection">
-            <a class="link color-tel" href="">info@devstudio.com</a>
-          </li>
-          <li class="connection">
-            <a class="link color-tel" href=""> +11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </div>
+      <div class="box-header container">
+        <nav class="nav-content">
+          <a class="logo link" href="./index.html"
+            >WEB<span class="accent">Studio</span></a>
+          <ul class="list site-nav">
+            <li class="navigation">
+              <a class="link my-color" href="./index.html">Studio</a>
+            </li>
+            <li class="navigation">
+              <a class="link my-color" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation">
+              <a class="link my-color" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacs">
+          <ul class="list menu">
+            <li class="connection">
+              <a class="link color-tel" href="">info@devstudio.com</a>
+            </li>
+            <li class="connection">
+              <a class="link color-tel" href=""> +11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       
-      <section>
-        <h1>our portfolio</h1>
-        <ul class="list">
+      <section class="gallery">
+        <div class="container">
+        <h1 class="visually-hidden">our portfolio</h1>
+        <ul class="list button-contant">
           <li class="button-styls">
-            <button class="button" type="button">All</button>
+            <button class="buttun" type="button">All</button>
           </li>
           <li class="button-styls">
             <button class="button" type="button">Web Site</button>
@@ -77,71 +78,90 @@
             <button class="button" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="list galery-element">
+          <li  class="item-galery">
             <a class="link" href=""><img src="./images/fbnk.jpg" alt="all work" width="360" >
+             <div  class="galery-container"> 
               <h2 class="all-images">Banking App Interface Concept</h2>
               <p class="subtitle">App</p>
+            </div> 
             </a>
           </li>
-          <li>
+
+          <li class="item-galery" >
             <a href="" class="link">
               <img src="./images/terminal.jpg" alt="all work" width="360">
+              <div class="galery-container"> 
               <h2 class="all-images">Cashless Payment</h2>
               <p class="subtitle">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery"  >
             <a href=""  class="link">
               <img src="./images/devays.jpg" alt="all work" width="360">
+              <div class="galery-container"  > 
               <h2 class="all-images">Meditation App</h2>
               <p class="subtitle">App</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery">
             <a class="link" href="">
               <img src="./images/drive.jpg" alt="all work" width="360" >
+              <div class="galery-container" > 
               <h2 class="all-images">Taxi Service</h2>
               <p class="subtitle">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery">
             <a class="link" href="">
               <img src="./images/moon.jpg" alt="all work" width="360" >
+              <div class="galery-container" > 
               <h2 class="all-images">Screen Illustrations</h2>
               <p class="subtitle">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery">
             <a class="link" href="">
               <img src="./images/girl.jpg" alt="all work" width="360" >
-
+              <div  class="galery-container" > 
               <h2 class="all-images">Online Courses</h2>
               <p class="subtitle">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery">
             <a class="link" href="">
               <img src="./images/model.jpg" alt="all work" width="360" >
+              <div class="galery-container"  > 
               <h2 class="all-images">Instagram Stories Concept</h2>
               <p class="subtitle">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery">
             <a class="link" href="">
               <img src="./images/girldress.jpg" alt="all work" width="360" >
+              <div  class="galery-container"  > 
               <h2 class="all-images">Organic Food</h2>
               <p class="subtitle">Web Site</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="item-galery" >
             <a class="link" href="">
               <img src="./images/coffee.jpg" alt="all work" width="360" >
+              <div class="galery-container"  > 
               <h2 class="all-images">Fresh Coffee</h2>
               <p class="subtitle">Web Site</p>
+              </div>
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!-- Footer -->
