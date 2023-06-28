@@ -191,8 +191,6 @@ h1 {
   width: calc((100% - 72px) / 4);
 }
 
-.advantages:last-child {
-  margin-right: 0; }
 
 
 .team-card-name {
