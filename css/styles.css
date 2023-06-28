@@ -27,8 +27,11 @@ img{
   width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;
-  
 
+}
+
+.goal-im {
+  margin: 0 auto;
 }
 .header {
   background-color: var(--header-color);
