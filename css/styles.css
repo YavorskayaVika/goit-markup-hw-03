@@ -182,7 +182,8 @@ img{
 
 }
 .advantages{
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+
 }
 .we-doing{
   padding-bottom: 120px; 
@@ -225,7 +226,7 @@ img{
 }
 .card-list {
   background-color: #ffffff;
-  width: calc((100% - 72px) /4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .team-card {
@@ -247,6 +248,8 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
+  margin-bottom: 8px;
+  width: calc((100% - 48px) /3);
 }
 .subtitle {
   font-size: 16px;
