@@ -187,12 +187,12 @@ h1 {
 .we-doing {
   padding-bottom: 120px;
 }
-.advantages-list {
+.advantages {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 
-.advantages-list :last-child {
+.advantages:last-child {
   margin-right: 0; }
 
 
