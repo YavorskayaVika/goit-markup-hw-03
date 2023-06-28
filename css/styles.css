@@ -195,8 +195,7 @@ img{
 
 }
 .advantages{
- 
-  flex-basis: calc((100% - 4 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .we-doing{
   padding-bottom: 120px; 
