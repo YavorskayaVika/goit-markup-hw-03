@@ -19,6 +19,9 @@ body ul {
 img{
   display: block;
 }
+ h1{
+
+ }
 /* header */
 .container{
   width: 1158px; 
@@ -63,12 +66,15 @@ img{
 }
 .contacs {
   font-style: normal;
+  display: flex;
+  align-self: center;
 }
 .connection {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--title-color);
+
 }
 .link:hover,
 .link:focus {
