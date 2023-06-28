@@ -183,12 +183,19 @@ h1 {
   display: flex;
   gap: 24px;
 }
-.advantages {
-  flex-basis: calc ((100% - 72px) / 4);
-}
+
 .we-doing {
   padding-bottom: 120px;
 }
+.advantages-list .item {
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
+
+.advantages-list .item:last-child {
+  margin-right: 0; }
+
+  
 .team-card-name {
   font-weight: 500;
   font-size: 20px;
