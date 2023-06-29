@@ -188,7 +188,7 @@ h1 {
   padding-bottom: 120px;
 }
 .advantages {
-  flex-basis: calc((100% - 24px * 3 ) / 4);
+  width: calc((100% - 72px) / 4);
 
   }
 
