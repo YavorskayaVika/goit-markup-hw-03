@@ -153,9 +153,7 @@ h1 {
 }
 /* Goals */
 
-.advantages {
-  width: calc((100% - 72px) / 4); 
-  }
+
 
 .title-goals {
   font-weight: 500;
@@ -188,12 +186,16 @@ h1 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.advantages {
+  width: calc((100% - 72px) / 4); 
+  }
+
+
+
 
 .we-doing {
   padding-bottom: 120px;
 }
-
-
 
 .team-card-name {
   font-weight: 500;
