@@ -187,7 +187,10 @@ h1 {
 .we-doing {
   padding-bottom: 120px;
 }
-li.advantages {
+.advantages {
+  width: calc((100% - 72px) / 4);
+}
+.advantages-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -316,6 +319,7 @@ li.advantages {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 }
 
 .item-galery {
@@ -326,4 +330,5 @@ li.advantages {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  height: calc(100% - 300px);
 }
