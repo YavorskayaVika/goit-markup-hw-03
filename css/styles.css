@@ -95,7 +95,6 @@ h1 {
   margin-right: 0;
 }
 .menu {
-  display: flex;
   gap: 40px;
 }
 .menu:last-child {
@@ -155,7 +154,6 @@ h1 {
 
 .advantages {
   width: calc((100% - 72px) / 4); 
-  gap: 24px;
   }
 
 .title-goals {
