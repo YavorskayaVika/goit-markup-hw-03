@@ -95,6 +95,7 @@ h1 {
   margin-right: 0;
 }
 .menu {
+  display: flex;
   gap: 40px;
 }
 .menu:last-child {
@@ -165,7 +166,6 @@ h1 {
   margin-bottom: 8px;
 }
 .main {
-  display: flex;
   gap: 24px;
 }
 .section-goals {
