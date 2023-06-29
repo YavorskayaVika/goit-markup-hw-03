@@ -151,8 +151,45 @@ h1 {
   border: 1px solid transparent;
   border: 1px solid transparent;
 }
-/* Goals */
-.section-goals {
+
+
+/* `````GOALS`````*/
+
+.goals-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.goals-list {
+  display: flex;
+  gap: 24px;
+}
+
+.goals-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.goals-descriprions {
+  margin-bottom: 8px;
+}
+
+.goals-text {
+  max-width: 264px;
+  max-height: 104px;
+}
+/* .section-goals {
   color: var(--title-color);
   font-size: 16px;
   line-height: 1.5;
@@ -182,13 +219,13 @@ h1 {
 .main {
   display: flex;
   gap: 24px;
-}
+} */
 
 .we-doing {
   padding-bottom: 120px;
 }
 .advantages {
-  width: calc((100% - 72px) / 4);
+  
 
   }
 
