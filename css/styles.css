@@ -166,7 +166,9 @@ h1 {
 .main {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
+  
 .section-goals {
   color: var(--title-color);
   font-size: 16px;
@@ -187,7 +189,7 @@ h1 {
   overflow: hidden;
 }
 .advantages {
-  width: calc((100% - 72px) / 4); 
+  width: calc(( 100% -3 * 24 ) / 4); 
   }
 
 
