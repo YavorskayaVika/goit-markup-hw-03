@@ -166,6 +166,7 @@ h1 {
   margin-bottom: 8px;
 }
 .main {
+  display: flex;
   gap: 24px;
 }
 .section-goals {
