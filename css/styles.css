@@ -188,11 +188,9 @@ h1 {
   padding-bottom: 120px;
 }
 .advantages {
-  width: calc((100% - 72px) / 4);
-}
-.advantages-item {
-  width: calc((100% - 72px) / 4);
-}
+  flex-basis: calc((100% - 3 * 24px) / 4) ;
+
+  }
 
 
 
